@@ -1,0 +1,6 @@
+# template .gitconfig file
+# any private/machinespecific config goes in here,
+# then we include gitconfig-shared
+	
+[include]
+	path = .dotfiles/gitconfig-shared

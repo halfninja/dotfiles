@@ -1,0 +1,10 @@
+[color]
+	ui = true
+[alias]
+    s = status
+    d = diff
+    lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
+    lga = !git lg --all
+    stage = add
+    unstage = reset
+    commit-all = !git add -A && git commit 
