@@ -8,3 +8,5 @@
     stage = add
     unstage = reset
     commit-all = !git add -A && git commit 
+[push]
+	default = simple
